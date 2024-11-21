@@ -21,3 +21,4 @@ for no gathering would be complete without you, dearest ${userName} and ${userFr
 console.log(myStory)
 
 document.getElementById('story').innerHTML = myStory
+
