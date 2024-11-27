@@ -11,7 +11,7 @@ body {
 }
 /* Body In Terms of Home Page Ends */
 
-
+/* Cascading Text Styling Starts */
 h1 {
     font-family: "filmotype-yale", sans-serif;
     font-weight: 400;
@@ -19,6 +19,33 @@ h1 {
     text-align: center;
     font-size: 190px;
     padding-bottom: 50px;
+}
+
+h2 {
+  font-family: "altesse-std-24pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+  text-align: left;
+  font-size: 100px;
+  padding-left: 90px;
+  padding-right: 80px;
+  padding-top: 10px;
+  margin-right: 235px;
+margin-left: 235px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+font-family: "altesse-std-24pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: right;
+font-size: 100px;
+padding-left: 90px;
+padding-right: 80px;
+margin-right: 235px;
+margin-left: 650px;
+background-color: rgba(255, 255, 255, 0.5);
 }
 
 p {
@@ -35,33 +62,7 @@ margin-left: 200px;
 margin-bottom: 100px;
 background-color: rgba(255, 255, 255, 0.5);
 }
-
-h2 {
-    font-family: "altesse-std-24pt", sans-serif;
-font-weight: 400;
-font-style: normal;
-    text-align: left;
-    font-size: 100px;
-    padding-left: 90px;
-    padding-right: 80px;
-    padding-top: 10px;
-    margin-right: 235px;
-margin-left: 235px;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-h3 {
-  font-family: "altesse-std-24pt", sans-serif;
-font-weight: 400;
-font-style: normal;
-  text-align: right;
-  font-size: 100px;
-  padding-left: 90px;
-  padding-right: 80px;
-  margin-right: 235px;
-margin-left: 650px;
-  background-color: rgba(255, 255, 255, 0.5);
-}
+/* Cascading Text Styling Ends */
 
 /* Fade-In Whistledown Image */
 

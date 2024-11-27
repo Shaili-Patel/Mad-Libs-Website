@@ -1,3 +1,4 @@
+// Let Prompts Start
 let userName = prompt('What is your name?')
 let userFriend = prompt('What is your friends name?')
 let userFavColor = prompt('What is your favorite color?')
@@ -5,7 +6,9 @@ let userAttire = prompt('Will you be wearing a gown or a suit?')
 let userFlower = prompt('What are your favorite flowers?')
 let userMusic = prompt('What is your favorite music genre?')
 let userVerb = prompt('Name a party verb (action)?')
+// Let Prompts End
 
+// Entire Story Start
 let myStory = `
   <h2> Dearest ${userName},</h2>
 
@@ -18,6 +21,7 @@ let myStory = `
   We await your presence with great anticipation,
   for no gathering would be complete without you, dearest ${userName} and ${userFriend}.</p><h3> - The Bridgerton Family</h3>
 `;
+// Entire Story End
 
 console.log(myStory);
 
