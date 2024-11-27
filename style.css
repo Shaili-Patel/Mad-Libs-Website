@@ -1,12 +1,16 @@
 
+/* Body In Terms of Home Page Starts*/
 body {
     background-image: url(imgs/Floral\ Background.jpeg);
     background-repeat: no-repeat;
     margin: 0;
-    background-size: cover;
-    padding-top: 400px;
+    background-size: 100vw 100vh;
     padding-bottom: 130px;
+    background-attachment: fixed;
+    padding-top: 20px;
 }
+/* Body In Terms of Home Page Ends */
+
 
 h1 {
     font-family: "filmotype-yale", sans-serif;
@@ -24,11 +28,10 @@ p {
 text-align: center;
 font-size: 35px;
 padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 250px;
-padding-right: 250px;
-margin-right: 235px;
-margin-left: 235px;
+padding-left: 200px;
+padding-right: 200px;
+margin-right: 200px;
+margin-left: 200px;
 margin-bottom: 100px;
 background-color: rgba(255, 255, 255, 0.5);
 }
@@ -47,14 +50,31 @@ margin-left: 235px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+h3 {
+  font-family: "altesse-std-24pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+  text-align: right;
+  font-size: 100px;
+  padding-left: 90px;
+  padding-right: 80px;
+  margin-right: 235px;
+margin-left: 650px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Fade-In Whistledown Image */
+
 .whistledown {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
   opacity: 0; 
   animation: fadeIn 3s forwards;
 }
+/* Fade-In Whistledown Image Ends*/
+
+/* Bridgerton Fade-In Text Starts*/
 
 @keyframes fadeIn {
   0% {
@@ -72,14 +92,15 @@ margin-left: 235px;
   padding: 0;
   margin: 0;
 }
+/* Body In Terms of Text Starts */
 
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+/* Body In Terms of Text Ends */
 
 h1 {
   font-family: "filmotype-yale";
@@ -87,7 +108,7 @@ h1 {
   text-align: center;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  font-size: 300px;
+  font-size: 230px;
 }
 @keyframes scale {
   100% {
@@ -151,3 +172,4 @@ span:nth-child(11) {
     filter: blur(0);
   }
 }
+/* Bridgerton Fade-In Text Ends*/
